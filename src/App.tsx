@@ -2,10 +2,10 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Land from "./pages/land";
 import Sky from "./pages/Sky";
 import Footer from "./components/Footer";
 import Ocean from "./pages/Ocean";
+import Land from "./pages/Land";
 
 function App() {
   return (
