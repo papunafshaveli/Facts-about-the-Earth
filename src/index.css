@@ -6,3 +6,7 @@
   box-sizing: border-box;
   font-family: "Oswald";
 }
+
+body {
+  background-color: rgb(159, 160, 159);
+}
