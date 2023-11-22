@@ -10,6 +10,7 @@ const HomeDiv = styled.div`
     text-align: center;
     padding-top: 100px;
     color: aliceblue;
+    padding-bottom: 3rem;
   }
 `;
 

@@ -1,5 +1,12 @@
+import styled from "styled-components";
+
+const FooterDiv = styled.div`
+  height: 5rem;
+  background-color: red;
+`;
+
 const Footer = () => {
-  return <div>Footer</div>;
+  return <FooterDiv>Footer</FooterDiv>;
 };
 
 export default Footer;
