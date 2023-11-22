@@ -1,11 +1,9 @@
 import styled from "styled-components";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 const FooterDiv = styled.div`
-  position: absolute;
-  bottom: 0;
-
   width: 100%;
-  height: 5rem;
+
+  padding: 20px;
 
   display: flex;
   align-items: center;
