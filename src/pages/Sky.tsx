@@ -19,7 +19,20 @@ const skyFacts = [
   },
 ];
 
-const SkyDiv = styled.div``;
+const SkyDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  h1 {
+    background-color: aquamarine;
+  }
+  p {
+    background-color: #301a1a;
+    color: white;
+    padding: 1rem 2rem;
+  }
+`;
 
 const Sky = () => {
   return (

@@ -19,7 +19,18 @@ const landFacts = [
   },
 ];
 
-const LandDiv = styled.div``;
+const LandDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  h1 {
+    background-color: aquamarine;
+  }
+  p {
+    background-color: #301a1a;
+    color: white;
+    padding: 1rem 2rem;
+  }
+`;
 
 const Land = () => {
   return (

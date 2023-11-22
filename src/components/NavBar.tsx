@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const NavBarDiv = styled.div`
   position: absolute;
+
   left: 50%;
   transform: translate(-50%);
+
   background-image: url(./earth2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +25,9 @@ const NavBarDiv = styled.div`
   }
   nav div {
     padding: 1rem;
-    border-radius: 50%;
+    border-radius: 300%;
+    width: 80px;
+    text-align: center;
   }
 `;
 const SkyDiv = styled.div`
@@ -41,13 +45,13 @@ const NavBar = () => {
     <NavBarDiv>
       <nav>
         <SkyDiv>
-          <Link to="/sky">sky</Link>
+          <NavLink to="/sky">sky</NavLink>
         </SkyDiv>
         <LandDiv>
-          <Link to="/land">land</Link>
+          <NavLink to="/land">land</NavLink>
         </LandDiv>
         <OceanDiv>
-          <Link to="/ocean">ocean</Link>
+          <NavLink to="/ocean">ocean</NavLink>
         </OceanDiv>
       </nav>
     </NavBarDiv>
